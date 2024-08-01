@@ -10,12 +10,24 @@ public class WorkoutPlan {
         this.workoutPlan = new ArrayList<Workout>();
     }
 
+    WorkoutPlan(ArrayList<Workout> workoutPlan) {
+        this.workoutPlan = workoutPlan;
+    }
+
     public ArrayList<Workout> getWorkoutPlan() {
         return this.workoutPlan;
     }
 
     public void setWorkoutPlan(ArrayList<Workout> workoutPlan) {
         this.workoutPlan = workoutPlan;
+    }
+
+    public void addWorkout(Workout workout) {
+        this.workoutPlan.add(workout);
+    }
+
+    public void addWorkout(Workout workout, int day) {
+        this.workoutPlan.add(day, workout);
     }
 
     @Override
