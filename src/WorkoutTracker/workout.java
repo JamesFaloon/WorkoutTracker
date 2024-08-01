@@ -1,10 +1,10 @@
 package src.WorkoutTracker;
 
-public class workout extends WorkoutPlan {
+public class Workout extends WorkoutPlan {
 
     protected String name;
 
-    workout() {
+    Workout() {
         this.name = "";
     }
 

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class WorkoutPlan {
 
-    protected ArrayList<workout> workoutPlan;
+    protected ArrayList<Workout> workoutPlan;
 
     WorkoutPlan() {
-        this.workoutPlan = new ArrayList<workout>();
+        this.workoutPlan = new ArrayList<Workout>();
     }
 
     @Override
