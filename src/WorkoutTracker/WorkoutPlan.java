@@ -10,6 +10,14 @@ public class WorkoutPlan {
         this.workoutPlan = new ArrayList<Workout>();
     }
 
+    public ArrayList<Workout> getWorkoutPlan() {
+        return this.workoutPlan;
+    }
+
+    public void setWorkoutPlan(ArrayList<Workout> workoutPlan) {
+        this.workoutPlan = workoutPlan;
+    }
+
     @Override
     public String toString() {
         String value = new String();
